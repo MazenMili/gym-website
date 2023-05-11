@@ -20,10 +20,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.container {
+.container-hero {
   max-width: 111.6rem;
   margin: 0 auto;
-  border: 1px solid red;
+
+}
+
+.container {
+  max-width: 124rem;
+  margin: 0 auto;
+}
+
+.page-padding {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .nav-btn-hover:hover {
@@ -34,11 +44,10 @@ body {
 .hero-section {
   background-image: url('../src/images/hero/hero-img.jpg');
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   object-fit: cover;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center 0px;
+  background-position: center center;
 }
 
 .hero-text {
@@ -50,8 +59,6 @@ body {
 .title-white {
   filter: brightness(0) invert(1);
 }
-
-
 
 .hero-cta::after {
   content: '';
@@ -75,7 +82,213 @@ body {
   transition: all 0.4s;
 }
 
+.about-section {
+  background-image: url('../src/images/who-we-are/background.jpg');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
 
+.card-item-div {
+  transition: all 0.2s;
+}
+
+.card-item-div:hover {
+  background-image: url('../src/images/who-we-are/info-card-bg.jpg');
+  color: white;
+}
+
+
+
+.about-cta {
+  padding: 1.82rem 3.6rem;
+  transition: all 0.3s;
+}
+
+.about-cta::after {
+  content: '';
+  width: 20rem;
+  height: 5.5rem;
+  border: 1px solid rgba(63, 63, 63, 0.362);
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  transition: all 0.4s;
+}
+
+.about-cta:hover:after {
+  content: '';
+  width: 20rem;
+  height: 5.5rem;
+  border: 1px solid #FF0336;
+  position: absolute;
+  top: -0px;
+  left: 0px;
+  transition: all 0.4s;
+}
+
+.girl-running {
+  width: 100%;
+  height: auto;
+  top: 60%;
+  right: 46%;
+  transform: translate(50%, -50%);
+  position: absolute;
+  z-index: 5;
+}
+
+.girl-bg {
+  width: 51%;
+  height: auto;
+  top: 67.7%;
+  right: 33%;
+  transform: translate(50%, -50%);
+  position: absolute;
+}
+
+.girl-text {
+  width: 15%;
+  height: auto;
+  top: 67.7%;
+  right: 84%;
+  transform: translate(50%, -50%);
+  position: absolute;
+}
+
+.girl-wind {
+  width: 15%;
+  height: auto;
+  top: 64.7%;
+  right: 29%;
+  transform: translate(50%, -50%);
+  position: absolute;
+}
+
+/* grid */
+
+.item-0,
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5 {
+  filter: grayscale(100%);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.item-0:hover,
+.item-1:hover,
+.item-2:hover,
+.item-3:hover,
+.item-4:hover,
+.item-5:hover {
+  filter: grayscale(0%);
+  transform: scale(1.3);
+}
+
+
+.item-0-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  overflow: hidden;
+}
+
+.item-1-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 2;
+  grid-column-end: 4;
+  overflow: hidden;
+}
+
+.item-2-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-row-end: 2;
+  grid-column-end: 5;
+  overflow: hidden;
+}
+
+.item-3-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2;
+  overflow: hidden;
+}
+
+.item-4-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 3;
+  overflow: hidden;
+}
+
+.item-5-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 5;
+  overflow: hidden;
+}
+
+.item-0 {
+  background-image: url('../src/images/features/cycling.jpg');
+  width: 100%;
+  height: 100%;
+}
+
+.item-1 {
+  background-image: url('../src/images/features/karate.jpg');
+  width: 100%;
+  height: 100%;
+
+}
+
+.item-2 {
+  background-image: url('../src/images/features/power.jpg');
+  width: 100%;
+  height: 100%;
+}
+
+.item-3 {
+  background-image: url('../src/images/features/meditation.jpg');
+  width: 100%;
+  height: 100%;
+
+}
+
+.item-4 {
+  background-image: url('../src/images/features/mma.jpg');
+  width: 100%;
+  height: 100%;
+
+}
+
+.item-5 {
+  background-image: url('../src/images/features/workout.jpg');
+  width: 100%;
+  height: 100%;
+}
 
 /* scrollbar ------------------------- */
 
