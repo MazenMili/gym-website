@@ -61,7 +61,12 @@ function Navbar() {
         }`}
       >
         <Link to="/">
-          <img src={Logo} alt="logo_img" onClick={goTop} />
+          <img
+            src={Logo}
+            alt="logo_img"
+            onClick={goTop}
+            className="w-full h-auto"
+          />
         </Link>
         <div className="navlist-nav">
           <NavList />
@@ -100,20 +105,20 @@ function Navbar() {
                   </a>
                 </li>
                 <li onClick={hamburgerMenu}>
-                  <a
+                  <Link
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    href="/#featured"
+                    to="/schedule"
                   >
-                    Featured
-                  </a>
+                    Schedule
+                  </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
-                  <a
+                  <Link
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    href="/#team"
+                    to="/blog"
                   >
-                    Team
-                  </a>
+                    Blog
+                  </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
@@ -124,20 +129,20 @@ function Navbar() {
                   </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
-                  <a
+                  <Link
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    href="/#pricing"
+                    to="/pricing"
                   >
                     Pricing
-                  </a>
+                  </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
-                  <a
+                  <Link
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    href="/#blog"
+                    to="/classes"
                   >
-                    Blog
-                  </a>
+                    Classes
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -244,7 +249,7 @@ function Navbar() {
               className="fa-bars fa-solid hidden text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
             ></i>
             {/* account */}
-            <Link to="/signup">
+            <Link onClick={goTop} to="/signup" title="signup_button">
               <i className="fa-regular fa-user  text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"></i>
             </Link>
             {/* sidebar */}
@@ -256,6 +261,7 @@ function Navbar() {
           {/* spin box */}
           <div className="border-[rgb(255,255,255,0.3)] border-solid border-2  p-2 rounded-md min620:hidden">
             <Link
+              onClick={goTop}
               to={"/contact"}
               onMouseEnter={joinSpin}
               onMouseLeave={stopSpin}
