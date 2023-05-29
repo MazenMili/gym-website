@@ -61,12 +61,7 @@ function Navbar() {
         }`}
       >
         <Link to="/">
-          <img
-            src={Logo}
-            alt="logo_img"
-            onClick={goTop}
-            className="w-full h-auto"
-          />
+          <img src={Logo} alt="logo_img" onClick={goTop} className="w-full h-auto" />
         </Link>
         <div className="navlist-nav">
           <NavList />
@@ -77,8 +72,8 @@ function Navbar() {
 
             {/* hamburger menu */}
             <div
-              className={`flex flex-col fixed w-full left-0 h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${
-                hamburger ? "top-0" : "-top-[100%]"
+              className={`flex top-0 flex-col fixed w-full left-0 h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${
+                hamburger ? "left-0" : "-left-[100%]"
               }`}
             >
               <i
@@ -90,6 +85,7 @@ function Navbar() {
               <ul className="text-center flex flex-col gap-10 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
                 <li onClick={hamburgerMenu}>
                   <a
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
                     href="/#home"
                   >
@@ -98,6 +94,7 @@ function Navbar() {
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
                     to="/about"
                   >
@@ -106,14 +103,16 @@ function Navbar() {
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="/schedule"
+                    to="/schedule/monday"
                   >
                     Schedule
                   </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
                     to="/gallery/page-1"
                   >
@@ -122,6 +121,7 @@ function Navbar() {
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
                     to="/blog"
                   >
@@ -130,6 +130,7 @@ function Navbar() {
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
                     to="/contact"
                   >
@@ -138,6 +139,7 @@ function Navbar() {
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
                     to="/pricing"
                   >
@@ -146,6 +148,7 @@ function Navbar() {
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
                     to="/classes"
                   >
@@ -175,46 +178,21 @@ function Navbar() {
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[2rem] font-bold">About Us</h3>
                   <p className="text-[1.6rem] font-medium text-[#000000b1]">
-                    Find out who we are and what makes us unique. We are a
-                    community-driven gym committed to providing personalized
-                    fitness experiences for all levels of fitness enthusiasts in
-                    a welcoming and supportive environment.
+                    Find out who we are and what makes us unique. We are a community-driven gym committed to
+                    providing personalized fitness experiences for all levels of fitness enthusiasts in a
+                    welcoming and supportive environment.
                   </p>
                 </div>
                 {/* gallery */}
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[2rem] font-bold">Gallery</h3>
                   <div className="grid grid-cols-3 grid-rows-2 gap-4">
-                    <img
-                      src={SideImg1}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg2}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg3}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg4}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg5}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg6}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
+                    <img src={SideImg1} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
+                    <img src={SideImg2} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
+                    <img src={SideImg3} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
+                    <img src={SideImg4} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
+                    <img src={SideImg5} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
+                    <img src={SideImg6} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
                   </div>
                 </div>
                 {/* contact */}
@@ -225,8 +203,7 @@ function Navbar() {
                     &nbsp; 59 Street, House Newyork City
                   </p>
                   <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-phone text-[#ff0336]"></i>&nbsp;
-                    +123-678800090
+                    <i className="fa-solid fa-phone text-[#ff0336]"></i>&nbsp; +123-678800090
                   </p>
                   <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
                     <i className="fa-solid fa-envelope text-[#ff0336]"></i>
@@ -237,15 +214,22 @@ function Navbar() {
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[2rem] font-bold">Follow Us</h3>
                   <div className="flex gap-5">
-                    <span className="bg-[#ff0336] rounded-full py-[12px] px-[17px] cursor-pointer">
-                      <i className="fa-brands fa-facebook-f text-[2.2rem] text-white"></i>
-                    </span>
-                    <span className="bg-[#ff0336] rounded-full py-[12px] px-[12px] cursor-pointer">
-                      <i className="fa-brands fa-twitter text-[2.2rem] text-white"></i>
-                    </span>
-                    <span className="bg-[#ff0336] rounded-full py-[10px] px-[13px] cursor-pointer">
-                      <i className="fa-brands fa-instagram text-[2.2rem] text-white"></i>
-                    </span>
+                    <i
+                      style={{ transition: "all 0.3s" }}
+                      className="fa-brands fa-facebook-f bg-[#efefef] p-4 rounded-full text-[2.2rem] px-[14px] hover:bg-[#ff0366] hover:text-white cursor-pointer"
+                    ></i>
+                    <i
+                      style={{ transition: "all 0.3s" }}
+                      className="fa-brands fa-twitter bg-[#efefef] p-4 rounded-full text-[2.2rem] hover:bg-[#ff0366] hover:text-white cursor-pointer"
+                    ></i>
+                    <i
+                      style={{ transition: "all 0.3s" }}
+                      className="fa-brands fa-pinterest-p bg-[#efefef] p-4 rounded-full text-[2.2rem] px-[14px] hover:bg-[#ff0366] hover:text-white cursor-pointer"
+                    ></i>
+                    <i
+                      style={{ transition: "all 0.3s" }}
+                      className="fa-brands fa-youtube bg-[#efefef] p-4 rounded-full text-[2.2rem] hover:bg-[#ff0366] hover:text-white cursor-pointer"
+                    ></i>
                   </div>
                 </div>
               </div>

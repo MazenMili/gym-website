@@ -35,8 +35,7 @@ function BmiCalc() {
               Let's Calculate Your <span className="text-[#FF0336]">BMI</span>
             </h2>
             <p className="text-[16px] text-[#a1a1a1] min620:text-white">
-              Easily determine your body mass index with our accurate
-              calculation tool.
+              Easily determine your body mass index with our accurate calculation tool.
             </p>
             <div className="flex flex-col">
               <form className="flex w-full gap-6 h-[50px] mt-10 ">

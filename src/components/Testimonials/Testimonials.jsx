@@ -18,11 +18,7 @@ function Testimonials() {
             <p className="text-white relative z-10 text-[16px] uppercase font-bold -mb-[10.5rem]">
               Testimonials
             </p>
-            <img
-              alt="title_img"
-              src={TitleBg}
-              className="w-[21rem] absolute -top-[6px] "
-            />
+            <img alt="title_img" src={TitleBg} className="w-[21rem] absolute -top-[6px] " />
           </div>
 
           {/* testimonials wrapper */}

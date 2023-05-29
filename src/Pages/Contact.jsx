@@ -5,9 +5,7 @@ function Login() {
     <>
       <section>
         <div className="login-banner relative justify-center flex">
-          <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">
-            Contact Us
-          </h1>
+          <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">Contact Us</h1>
         </div>
         {/* contact */}
         <div className="bg-white py-[12rem] page-padding grid grid-cols-2 container gap-10 items-center md1000:grid-cols-1 ">
@@ -17,16 +15,13 @@ function Login() {
               We are here for help you! To Shape Your Body.
             </h2>
             <p className="text-[16px] w-[95%] text-[#646464] font-medium my-[40px]">
-              At Gymate, we are dedicated to helping you achieve the body of
-              your dreams. Our expert trainers and nutritionists will work with
-              you to create a personalized fitness and nutrition plan that helps
-              you reach your specific goals.
+              At Gymate, we are dedicated to helping you achieve the body of your dreams. Our expert trainers
+              and nutritionists will work with you to create a personalized fitness and nutrition plan that
+              helps you reach your specific goals.
             </p>
             <div className="grid grid-cols-2 grid-rows-2 gap-y-20 min620:grid-cols-1 min620:mx-auto">
               <div className="flex flex-col relative">
-                <h3 className="text-[2rem] font-bold mb-10">
-                  New York City, USA
-                </h3>
+                <h3 className="text-[2rem] font-bold mb-10">New York City, USA</h3>
                 <span className="bg-[#ff0336] w-[50px] h-[4px] absolute top-[33px]"></span>
                 <p className="text-[15px] font-medium text-[#646464]">
                   85 Briston Mint Street,

@@ -5,9 +5,7 @@ function Schedule() {
     <>
       <section className="">
         <div className="login-banner relative justify-center flex">
-          <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">
-            Schedule by Day
-          </h1>
+          <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">Schedule by Day</h1>
         </div>
         {/* schedule */}
         <div className="container page-padding py-[10rem]">
@@ -50,28 +48,18 @@ function Schedule() {
               <ul className="flex justify-between w-full">
                 {/* class name */}
                 <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full">
-                  <p className="text-[14px] font-medium text-[#a0a0a0]">
-                    Class Name
-                  </p>
-                  <p className="text-[18px] text-black font-bold mt-3">
-                    Boxing
-                  </p>
+                  <p className="text-[14px] font-medium text-[#a0a0a0]">Class Name</p>
+                  <p className="text-[18px] text-black font-bold mt-3">Boxing</p>
                 </li>
                 {/* time */}
                 <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
                   <p className="text-[14px] font-medium text-[#a0a0a0]">Time</p>
-                  <p className="text-[18px] text-black font-bold mt-3">
-                    9:00am - 10:00am
-                  </p>
+                  <p className="text-[18px] text-black font-bold mt-3">9:00am - 10:00am</p>
                 </li>
                 {/* trainer */}
                 <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
-                  <p className="text-[14px] font-medium text-[#a0a0a0]">
-                    Trainer
-                  </p>
-                  <p className="text-[18px] text-black font-bold mt-3">
-                    Robert Louis
-                  </p>
+                  <p className="text-[14px] font-medium text-[#a0a0a0]">Trainer</p>
+                  <p className="text-[18px] text-black font-bold mt-3">Robert Louis</p>
                 </li>
                 <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full text-right">
                   <button className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#ff0336] ease-in duration-200 ">
@@ -83,28 +71,18 @@ function Schedule() {
               <ul className="flex justify-between w-full">
                 {/* class name */}
                 <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full">
-                  <p className="text-[14px] font-medium text-[#a0a0a0]">
-                    Class Name
-                  </p>
-                  <p className="text-[18px] text-black font-bold mt-3">
-                    Boxing
-                  </p>
+                  <p className="text-[14px] font-medium text-[#a0a0a0]">Class Name</p>
+                  <p className="text-[18px] text-black font-bold mt-3">Boxing</p>
                 </li>
                 {/* time */}
                 <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
                   <p className="text-[14px] font-medium text-[#a0a0a0]">Time</p>
-                  <p className="text-[18px] text-black font-bold mt-3">
-                    9:00am - 10:00am
-                  </p>
+                  <p className="text-[18px] text-black font-bold mt-3">9:00am - 10:00am</p>
                 </li>
                 {/* trainer */}
                 <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
-                  <p className="text-[14px] font-medium text-[#a0a0a0]">
-                    Trainer
-                  </p>
-                  <p className="text-[18px] text-black font-bold mt-3">
-                    Robert Louis
-                  </p>
+                  <p className="text-[14px] font-medium text-[#a0a0a0]">Trainer</p>
+                  <p className="text-[18px] text-black font-bold mt-3">Robert Louis</p>
                 </li>
                 <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full text-right">
                   <button className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#ff0336] ease-in duration-200 ">
@@ -116,28 +94,18 @@ function Schedule() {
               <ul className="flex justify-between w-full">
                 {/* class name */}
                 <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full">
-                  <p className="text-[14px] font-medium text-[#a0a0a0]">
-                    Class Name
-                  </p>
-                  <p className="text-[18px] text-black font-bold mt-3">
-                    Boxing
-                  </p>
+                  <p className="text-[14px] font-medium text-[#a0a0a0]">Class Name</p>
+                  <p className="text-[18px] text-black font-bold mt-3">Boxing</p>
                 </li>
                 {/* time */}
                 <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
                   <p className="text-[14px] font-medium text-[#a0a0a0]">Time</p>
-                  <p className="text-[18px] text-black font-bold mt-3">
-                    9:00am - 10:00am
-                  </p>
+                  <p className="text-[18px] text-black font-bold mt-3">9:00am - 10:00am</p>
                 </li>
                 {/* trainer */}
                 <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
-                  <p className="text-[14px] font-medium text-[#a0a0a0]">
-                    Trainer
-                  </p>
-                  <p className="text-[18px] text-black font-bold mt-3">
-                    Robert Louis
-                  </p>
+                  <p className="text-[14px] font-medium text-[#a0a0a0]">Trainer</p>
+                  <p className="text-[18px] text-black font-bold mt-3">Robert Louis</p>
                 </li>
                 <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full text-right">
                   <button className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#ff0336] ease-in duration-200 ">

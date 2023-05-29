@@ -13,11 +13,7 @@ function ChooseUs() {
       <section className="choose-section py-[12rem] ">
         <div className="container page-padding flex flex-row md1000:flex-col md1000:items-center gap-[7rem]">
           <div className="video-div relative w-[50%] md1000:w-[85%] md1000:flex md1000:justify-center">
-            <img
-              src={VideoImg}
-              alt="video_img"
-              className="relative w-[94%] h-auto"
-            />
+            <img src={VideoImg} alt="video_img" className="relative w-[94%] h-auto" />
             <img
               src={PlayImg}
               alt="play_img"
@@ -27,9 +23,7 @@ function ChooseUs() {
           </div>
 
           <div className="relative w-[50%] md1000:flex md1000:flex-col md1000:items-center md1000:text-center md1000:w-[85%]">
-            <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-14">
-              why choose us
-            </p>
+            <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-14">why choose us</p>
             <img
               src={TitleRed}
               alt="text_bg"
@@ -39,10 +33,9 @@ function ChooseUs() {
               We Can Give A Shape Of Your Body Here!
             </h2>
             <p className="text-[16.5px] text-[#b4b4b4] mt-7 max-w-3xl md1000:max-w-[80%]">
-              At <b>Gymate</b>, we are dedicated to helping you achieve the body
-              of your dreams. Our expert trainers and nutritionists will work
-              with you to create a personalized fitness and nutrition plan that
-              helps you reach your specific goals.
+              At <b>Gymate</b>, we are dedicated to helping you achieve the body of your dreams. Our expert
+              trainers and nutritionists will work with you to create a personalized fitness and nutrition
+              plan that helps you reach your specific goals.
             </p>
 
             <div className="grid grid-cols-2 grid-rows-2 gap-14 max-w-[44rem] mt-14 min450:flex min450:flex-col">
@@ -52,9 +45,7 @@ function ChooseUs() {
                   src={TrainingIcon}
                   alt="icon"
                 />
-                <p className="text-white font-bold text-[18px] max-w-[150px]">
-                  Free Fitness Training
-                </p>
+                <p className="text-white font-bold text-[18px] max-w-[150px]">Free Fitness Training</p>
               </div>
 
               <div className="flex items-center gap-6">
@@ -63,9 +54,7 @@ function ChooseUs() {
                   src={EquipmentsIcon}
                   alt="icon"
                 />
-                <p className="text-white font-bold text-[18px] max-w-[150px]">
-                  Modern Gym Equipments
-                </p>
+                <p className="text-white font-bold text-[18px] max-w-[150px]">Modern Gym Equipments</p>
               </div>
 
               <div className="flex items-center gap-6">
@@ -74,9 +63,7 @@ function ChooseUs() {
                   src={BagIcon}
                   alt="icon"
                 />
-                <p className="text-white font-bold text-[18px] max-w-[150px]">
-                  Gym Bag Equipments
-                </p>
+                <p className="text-white font-bold text-[18px] max-w-[150px]">Gym Bag Equipments</p>
               </div>
 
               <div className="flex items-center gap-6">
@@ -85,15 +72,13 @@ function ChooseUs() {
                   src={BottleIcon}
                   alt="icon"
                 />
-                <p className="text-white font-bold text-[18px] max-w-[150px]">
-                  Fresh Bottle Watter
-                </p>
+                <p className="text-white font-bold text-[18px] max-w-[150px]">Fresh Bottle Watter</p>
               </div>
               <MainButton
-                color={`text-white`}
+                color={`!text-white`}
                 bg={`bg-[#595959]`}
                 text="our classes"
-                arrowColor={`text-white`}
+                arrowColor={`!text-white`}
                 cN="choose-cta"
                 hover={`hover:bg-[#ff0336]`}
                 goTo="/classes"

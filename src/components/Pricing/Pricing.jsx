@@ -15,18 +15,10 @@ function Pricing() {
           <img src={BgText} className="left-0 absolute" alt="bg_img" />
           {/* title div -- */}
           <div className="flex flex-col text-center relative items-center">
-            <p className="text-white relative z-10 text-[15px] uppercase font-bold mb-8">
-              PRICING CHART
-            </p>
-            <img
-              src={TitleRed}
-              alt="text_bg"
-              className="w-[23rem] absolute -top-[10px] "
-            />
+            <p className="text-white relative z-10 text-[15px] uppercase font-bold mb-8">PRICING CHART</p>
+            <img src={TitleRed} alt="text_bg" className="w-[23rem] absolute -top-[10px] " />
 
-            <h2 className="text-[3.4rem] font-bold mb-4">
-              Exclusive Pricing Plan
-            </h2>
+            <h2 className="text-[3.4rem] font-bold mb-4">Exclusive Pricing Plan</h2>
             <p className="text-[#646464] font-medium text-[15px] ">
               Gymat an unknown printer took a galley of type and scrambled
               <br /> make a type specimen book.
@@ -38,11 +30,7 @@ function Pricing() {
             <PricingBox img={Img2} price="65" />
             <PricingBox img={Img3} price="100" />
           </div>
-          <img
-            src={BgDumbell}
-            alt="bg_icon"
-            className="right-0 bottom-0 absolute z-[1]"
-          />
+          <img src={BgDumbell} alt="bg_icon" className="right-0 bottom-0 absolute z-[1]" />
         </div>
       </section>
     </>
