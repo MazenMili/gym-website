@@ -11,19 +11,19 @@ function Pricing() {
   return (
     <>
       <section id="pricing" className="pricing-section relative">
-        <div className="container page-padding py-[12rem] ">
+        <div className="container page-padding py-[120px] ">
           <img src={BgText} className="left-0 absolute" alt="bg_img" />
           {/* title div -- */}
           <div className="flex flex-col text-center relative items-center">
             <p className="text-white relative z-10 text-[15px] uppercase font-bold mb-8">PRICING CHART</p>
-            <img src={TitleRed} alt="text_bg" className="w-[23rem] absolute -top-[10px] " />
-            <h2 className="text-[3.4rem] font-bold mb-4">Exclusive Pricing Plan</h2>
+            <img src={TitleRed} alt="text_bg" className="w-[230px] absolute -top-[10px] " />
+            <h2 className="text-[34px] font-bold mb-4">Exclusive Pricing Plan</h2>
           </div>
           {/* pricing boxes */}
           <div className="flex gap-10 mt-32 relative z-[2] md1000:flex-col md1000:items-center ">
-            <PricingBox img={Img1} price="39" />
-            <PricingBox img={Img2} price="65" />
-            <PricingBox img={Img3} price="100" />
+            <PricingBox img={Img1} price="39" category={"Beginner"} />
+            <PricingBox img={Img2} price="65" category={"Advanced"} />
+            <PricingBox img={Img3} price="100" category={"Expert"} />
           </div>
           <img src={BgDumbell} alt="bg_icon" className="right-0 bottom-0 absolute z-[1]" />
         </div>

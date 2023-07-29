@@ -10,14 +10,14 @@ import MainButton from "../MainButton";
 function ChooseUs() {
   return (
     <>
-      <section className="choose-section py-[12rem] ">
-        <div className="container page-padding flex flex-row md1000:flex-col md1000:items-center gap-[7rem]">
+      <section className="choose-section py-[120px] ">
+        <div className="container page-padding flex flex-row md1000:flex-col md1000:items-center gap-[70px]">
           <div className="video-div relative w-[50%] md1000:w-[85%] md1000:flex md1000:justify-center">
             <img src={VideoImg} alt="video_img" className="relative w-[94%] h-auto" />
             <img
               src={PlayImg}
               alt="play_img"
-              className="absolute w-[2.4rem] top-[42%] left-[44%] z-10 cursor-pointer min450:left-[47%] min450:top-[44%] "
+              className="absolute w-[24px] top-[42%] left-[44%] z-10 cursor-pointer min450:left-[47%] min450:top-[44%] "
             />
             <span className="bg-white cursor-pointer p-14 absolute rounded-full top-[38.7%] left-[39.9%]"></span>
           </div>
@@ -27,9 +27,9 @@ function ChooseUs() {
             <img
               src={TitleRed}
               alt="text_bg"
-              className="w-[22rem] absolute -top-[6px] -left-14 md1000:hidden "
+              className="w-[220px] absolute -top-[6px] -left-14 md1000:hidden "
             />
-            <h2 className=" text-[3.6rem] text-white font-bold leading-[1.2] max-w-3xl md1000:max-w-[80%]">
+            <h2 className=" text-[36px] text-white font-bold leading-[1.2] max-w-3xl md1000:max-w-[80%]">
               We Can Give A Shape Of Your Body Here!
             </h2>
             <p className="text-[16.5px] text-[#b4b4b4] mt-7 max-w-3xl md1000:max-w-[80%]">
@@ -38,10 +38,10 @@ function ChooseUs() {
               plan that helps you reach your specific goals.
             </p>
 
-            <div className="grid grid-cols-2 grid-rows-2 gap-14 max-w-[44rem] mt-14 min450:flex min450:flex-col">
+            <div className="grid grid-cols-2 grid-rows-2 gap-14 max-w-[440px] mt-14 min450:flex min450:flex-col">
               <div className="flex items-center gap-6">
                 <img
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[65px] rounded-full p-4"
                   src={TrainingIcon}
                   alt="icon"
                 />
@@ -50,7 +50,7 @@ function ChooseUs() {
 
               <div className="flex items-center gap-6">
                 <img
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[65px] rounded-full p-4"
                   src={EquipmentsIcon}
                   alt="icon"
                 />
@@ -59,7 +59,7 @@ function ChooseUs() {
 
               <div className="flex items-center gap-6">
                 <img
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[65px] rounded-full p-4"
                   src={BagIcon}
                   alt="icon"
                 />
@@ -68,7 +68,7 @@ function ChooseUs() {
 
               <div className="flex items-center gap-6">
                 <img
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[65px] rounded-full p-4"
                   src={BottleIcon}
                   alt="icon"
                 />

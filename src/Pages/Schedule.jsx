@@ -5,10 +5,10 @@ function Schedule() {
     <>
       <section className="">
         <div className="login-banner relative justify-center flex">
-          <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">Schedule by Day</h1>
+          <h1 className="text-white absolute bottom-[25px] text-[30px] font-bold">Schedule by Day</h1>
         </div>
         {/* schedule */}
-        <div className="container page-padding py-[10rem]">
+        <div className="container page-padding py-[100px]">
           {/* fiter buttons */}
           <div className="flex flex-wrap gap-4 justify-center">
             <button className="text-[15px] font-bold border-solid border border-[#d7d7d7] py-[9px] px-[32px] rounded-[23px] hover:bg-[#ff0336] ease-in duration-200 hover:shadow-2xl hover:text-white ">
@@ -41,7 +41,7 @@ function Schedule() {
           </div>
 
           {/* boxes */}
-          <div className="mt-[5rem]">
+          <div className="mt-[50px]">
             {/* monday */}
             <div className="flex flex-col gap-5">
               {/* row */}

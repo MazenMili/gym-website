@@ -27,11 +27,11 @@ function BmiCalc() {
 
   return (
     <>
-      <section className="bmi-section py-[6rem] relative">
+      <section className="bmi-section py-[60px] relative">
         <div className="container page-padding ">
           <span className="w-full h-full absolute bg-transparent min620:bg-[#00000063] top-0 left-0"></span>
-          <div className="text-white w-[52rem] min620:w-[100%] relative">
-            <h2 className="text-[4rem] font-bold leading-[1.1] mb-8">
+          <div className="text-white w-[520px] min620:w-[100%] relative">
+            <h2 className="text-[40px] font-bold leading-[1.1] mb-8">
               Let's Calculate Your <span className="text-[#FF0336]">BMI</span>
             </h2>
             <p className="text-[16px] text-[#a1a1a1] min620:text-white">
@@ -67,7 +67,7 @@ function BmiCalc() {
                 onClick={calcBmi}
                 style={{ transition: "all 0.3s" }}
                 type="submit"
-                className="text-[15px] uppercase font-bold mt-10 bg-[#323232] w-[15rem] h-[5rem] hover:bg-[#FF0336]"
+                className="text-[15px] uppercase font-bold mt-10 bg-[#323232] w-[150px] h-[50px] hover:bg-[#FF0336]"
               >
                 Calculate
               </button>

@@ -3,10 +3,10 @@ import { galleryImg } from "./GalleryFiles";
 import { Link } from "react-router-dom";
 
 function GalleryPage2() {
-  const secondPageImgs = galleryImg.filter((item) => item.id >= 9);
+  const secondPageImgs = galleryImg.filter((item) => item.id >= 10);
   return (
     <>
-      <div className="grid grid-cols-3 gap-7 md1000:grid-cols-2 min540:grid-cols-1">
+      <div className="grid grid-cols-3 gap-[28px] md1000:grid-cols-2 min540:grid-cols-1">
         {secondPageImgs.map((image) => (
           <div key={image.id}>
             <img alt="gallery_img" className="w-full h-auto" src={image.img} />

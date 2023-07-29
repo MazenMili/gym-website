@@ -19,10 +19,10 @@ function Blog() {
     <>
       <section>
         <div className="login-banner relative justify-center flex">
-          <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">Blog</h1>
+          <h1 className="text-white absolute bottom-[25px] text-[30px] font-bold">Blog</h1>
         </div>
         {/* blog */}
-        <div className="py-[10rem] container gap-16 page-padding grid grid-cols-[64fr_35fr] md1000:grid-cols-1 md1000:gap-32">
+        <div className="py-[100px] container gap-16 page-padding grid grid-cols-[64fr_35fr] md1000:grid-cols-1 md1000:gap-32">
           {/* blog */}
           <div className="flex flex-col gap-28">
             <BlogBox img={Img1} title="Yoga For Everyone in 2022" />
@@ -109,7 +109,7 @@ function Blog() {
               <div className="flex flex-col gap-7">
                 {/*  */}
                 <div className="flex gap-8">
-                  <img src={Recent1} alt="recent_img" className="w-[10rem]" />
+                  <img src={Recent1} alt="recent_img" className="w-[100px]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">March 22, 2022</p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -119,7 +119,7 @@ function Blog() {
                 </div>
                 {/*  */}
                 <div className="flex gap-8">
-                  <img src={Recent2} alt="recent_img" className="w-[10rem]" />
+                  <img src={Recent2} alt="recent_img" className="w-[100px]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">March 22, 2022</p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -129,7 +129,7 @@ function Blog() {
                 </div>
                 {/*  */}
                 <div className="flex gap-8">
-                  <img src={Recent3} alt="recent_img" className="w-[10rem]" />
+                  <img src={Recent3} alt="recent_img" className="w-[100px]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">March 22, 2022</p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -139,7 +139,7 @@ function Blog() {
                 </div>
                 {/*  */}
                 <div className="flex gap-8">
-                  <img src={Recent4} alt="recent_img" className="w-[10rem]" />
+                  <img src={Recent4} alt="recent_img" className="w-[100px]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">March 22, 2022</p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -149,7 +149,7 @@ function Blog() {
                 </div>
                 {/*  */}
                 <div className="flex gap-8">
-                  <img src={Recent5} alt="recent_img" className="w-[10rem]" />
+                  <img src={Recent5} alt="recent_img" className="w-[100px]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">March 22, 2022</p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -159,7 +159,7 @@ function Blog() {
                 </div>
                 {/*  */}
                 <div className="flex gap-8">
-                  <img src={Recent6} alt="recent_img" className="w-[10rem]" />
+                  <img src={Recent6} alt="recent_img" className="w-[100px]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">March 22, 2022</p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -201,10 +201,10 @@ function Blog() {
               </div>
             </div>
             {/* banner */}
-            <div className="blog-banner w-full h-[56rem] relative">
+            <div className="blog-banner w-full h-[560px] relative">
               <p className="absolute text-[34px] font-bold uppercase top-16 left-10 z-[2]">gymat</p>
-              <span className="banner-shape top-14 left-0 z-[1] bg-white absolute w-[18rem] h-[60px]"></span>
-              <div className="text-white flex flex-col absolute top-[10rem] left-10">
+              <span className="banner-shape top-14 left-0 z-[1] bg-white absolute w-[180px] h-[60px]"></span>
+              <div className="text-white flex flex-col absolute top-[100px] left-10">
                 <p className="text-[64px] font-bold">34%</p>
                 <p className="text-[20px] font-bold -mt-[10px]">Flat Discount</p>
               </div>

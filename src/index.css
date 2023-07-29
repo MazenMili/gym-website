@@ -23,18 +23,18 @@ body {
 /* css for all pages */
 
 .container-hero {
-  max-width: 111.6rem;
+  max-width: 1110px;
   margin: 0 auto;
 }
 
 .container {
-  max-width: 124rem;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
 .page-padding {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .nav-btn-hover:hover {
@@ -63,8 +63,8 @@ body {
 
 .hero-cta::after {
   content: "";
-  width: 20rem;
-  height: 5.5rem;
+  width: 200px;
+  height: 55px;
   border: 1px solid rgba(255, 255, 255, 0.362);
   position: absolute;
   top: -12px;
@@ -74,8 +74,8 @@ body {
 
 .hero-cta:hover:after {
   content: "";
-  width: 20rem;
-  height: 5.5rem;
+  width: 200px;
+  height: 55px;
   border: 1px solid rgba(255, 255, 255);
   position: absolute;
   top: -0px;
@@ -102,15 +102,15 @@ body {
 }
 
 .about-cta {
-  padding: 1.82rem 3.6rem;
+  padding: 18px 36px;
   transition: all 0.3s;
-  width: 21rem;
+  width: 210px;
 }
 
 .about-cta::after {
   content: "";
-  width: 20rem;
-  height: 5.5rem;
+  width: 200px;
+  height: 55px;
   border: 1px solid rgba(63, 63, 63, 0.362);
   position: absolute;
   top: -12px;
@@ -120,8 +120,8 @@ body {
 
 .about-cta:hover:after {
   content: "";
-  width: 20rem;
-  height: 5.5rem;
+  width: 200px;
+  height: 55px;
   border: 1px solid #ff0336;
   position: absolute;
   top: -0px;
@@ -308,7 +308,7 @@ body {
 }
 
 .item-0-div {
-  height: 30rem;
+  height: 300px;
   width: 100%;
   grid-row-start: 1;
   grid-column-start: 1;
@@ -318,7 +318,7 @@ body {
 }
 
 .item-1-div {
-  height: 30rem;
+  height: 300px;
   width: 100%;
   grid-row-start: 1;
   grid-column-start: 3;
@@ -328,7 +328,7 @@ body {
 }
 
 .item-2-div {
-  height: 30rem;
+  height: 300px;
   width: 100%;
   grid-row-start: 1;
   grid-column-start: 4;
@@ -338,7 +338,7 @@ body {
 }
 
 .item-3-div {
-  height: 30rem;
+  height: 300px;
   width: 100%;
   grid-row-start: 2;
   grid-column-start: 1;
@@ -348,7 +348,7 @@ body {
 }
 
 .item-4-div {
-  height: 30rem;
+  height: 300px;
   width: 100%;
   grid-row-start: 2;
   grid-column-start: 2;
@@ -358,7 +358,7 @@ body {
 }
 
 .item-5-div {
-  height: 30rem;
+  height: 300px;
   width: 100%;
   grid-row-start: 2;
   grid-column-start: 3;
@@ -408,7 +408,7 @@ body {
 .featured-cta {
   background-image: url(../src/images/features/cta-bg.png);
   width: 100%;
-  height: 21rem;
+  height: 210px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -449,7 +449,7 @@ body {
 
 .choose-cta {
   transition: all 0.4s;
-  margin-top: 4rem;
+  margin-top: 40px;
 }
 
 .choose-cta::after {
@@ -511,7 +511,7 @@ body {
 }
 
 #item-0 {
-  height: 41rem;
+  height: 410px;
   width: 100%;
   background-color: #de89dd;
   grid-row-start: 1;
@@ -609,7 +609,7 @@ body {
 
 .pricing-cta {
   transition: all 0.4s;
-  margin-top: 4rem;
+  margin-top: 40px;
 }
 
 .pricing-cta::after {

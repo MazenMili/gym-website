@@ -11,24 +11,24 @@ function Testimonials() {
   return (
     <>
       {/* testimonials div */}
-      <section className="my-[10rem] mx-auto">
+      <section className="my-[100px] mx-auto">
         <div className="container page-padding">
           {/* title */}
           <div className="text-center relative items-center w-full flex flex-col">
-            <p className="text-white relative z-10 text-[16px] uppercase font-bold -mb-[10.5rem]">
+            <p className="text-white relative z-10 text-[16px] uppercase font-bold -mb-[105px]">
               Testimonials
             </p>
-            <img alt="title_img" src={TitleBg} className="w-[21rem] absolute -top-[6px] " />
+            <img alt="title_img" src={TitleBg} className="w-[210px] absolute -top-[6px] " />
           </div>
 
           {/* testimonials wrapper */}
-          <div className="border-[#efefef] mt-[17rem] md1000:mt-[9rem] bg-white border-solid border-[9px] p-[30px] min540:h-[48rem] min375:h-[60rem]">
-            <div className="bg-black overflow-x-clip w-full h-[33rem] relative">
+          <div className="border-[#efefef] mt-[170px] md1000:mt-[90px] bg-white border-solid border-[9px] p-[30px] min540:h-[480px] min375:h-[600px]">
+            <div className="bg-black overflow-x-clip w-full h-[330px] relative">
               {/* img */}
               <img
                 alt="girl_img"
                 src={TestimonialImg}
-                className="absolute bottom-0 -left-10 z-20 h-[46rem] rounded-tr-[200px] md1000:hidden"
+                className="absolute bottom-0 -left-10 z-20 h-[460px] rounded-tr-[200px] md1000:hidden"
               />
 
               {/* all text-boxes */}

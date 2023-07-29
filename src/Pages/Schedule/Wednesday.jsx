@@ -59,7 +59,7 @@ function Wednesday() {
       {/* ---- */}
 
       {/* boxes */}
-      <div className="mt-[5rem]">
+      <div className="mt-[50px]">
         {/* monday */}
         <div className="flex flex-col gap-3">
           {/* row */}
