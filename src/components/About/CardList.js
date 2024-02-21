@@ -5,20 +5,20 @@ import NutritionImg from "../../images/who-we-are/nutritions.png";
 export const cardList = [
   {
     img: ProgressionImg,
-    title: "Progression",
+    title: "المتابعـة",
     description:
-      "Our team of experts will work with you to create a customized plan that helps you achieve success one step at a time.",
+      "مـتابعة يومية واستشارات مجانيـــة مــع المدربة نجاة لتحقيق جودة عالية من التدريب الشخصي",
   },
   {
     img: WorkoutImg,
-    title: "Workout",
+    title: "التمــارين",
     description:
-      " With a variety of workouts to choose from, you'll have everything you need to get into the best shape of your life.",
+      "برنامج تمارين يومية حسب هدفك (تنشيف/تضخيم/تمارين منزلية وغيرها) مصور ومشروح بالفيديو    ",
   },
   {
     img: NutritionImg,
-    title: "Nutritions",
+    title: "التغذيـة",
     description:
-      "Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.",
+      "جداول تغذية محسوبة السعرات والماكروز مع 5 اختيارات لكل وجبة وسناك بالإضافة لاختيارات مناسبة من المطاعم لتساعدك على الالتزام بدون حرمان",
   },
 ];

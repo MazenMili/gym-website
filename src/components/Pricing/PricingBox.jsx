@@ -4,7 +4,10 @@ function PricingBox({ img, price, category }) {
   return (
     <>
       <div className="flex flex-col w-1/3 md1000:w-[400px] bg-white shadow-xl relative min540:w-[100%]">
-        <div style={{ transition: "all 0.3s" }} className="relative grayscale hover:grayscale-0">
+        <div
+          style={{ transition: "all 0.3s" }}
+          className="relative grayscale hover:grayscale-0"
+        >
           <img src={img} alt="pricing_img" className="w-full h-full" />
           <div className="absolute bg-white text-[20px] font-bold w-[250px] text-center py-6 text-[#ff0336] -bottom-[18px] left-0 right-0 mx-auto">
             {category}
@@ -13,25 +16,24 @@ function PricingBox({ img, price, category }) {
         <div className="flex flex-col items-center pt-[20px] pb-[50px]">
           {/* price */}
           <p className="text-center text-[55px] font-bold relative py-[10px] ">
-            <span className="text-[30px] text-[#6d6d6d] absolute font-normal top-8 -left-[30px]">$</span>
-            {price}
-            <span className="text-[22px] text-[#6d6d6d] absolute font-normal bottom-[25px] -right-[60px]">
-              p/m
+            <span className="text-[15px] text-[#6d6d6d] absolute font-normal top-8 -left-[30px]">
+              SAR
             </span>
+            {price}
+            <span className="text-[22px] text-[#6d6d6d] absolute font-normal bottom-[25px] -right-[60px]"></span>
           </p>
           {/* text */}
           <div className="flex flex-col text-[16px] font-medium text-center gap-8 text-[#646464] ">
-            <p>Free Hand</p>
-            <p>Gym Fitness</p>
-            <p>Weight Loss</p>
-            <p>Personal Trainer</p>
-            <p>Cycling</p>
+            <p>جـدول تمريـن</p>
+            <p>نظام غذائـي</p>
+            <p>متـابعة</p>
+            <p>عـن بعد</p>
           </div>
 
           <MainButton
             color={`!text-white`}
             bg={`bg-[#ff0336]`}
-            text="purchase now"
+            text="اشـترك الآن"
             arrowColor={`!text-white`}
             cN="pricing-cta"
             goTo="/contact"

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../../images/logo/logo.svg";
+import Logo from "../../images/logo/LogoNajat.png";
 import NavList from "../Nav/NavList";
 import { Link } from "react-router-dom";
 import LogoSide from "../../images/logo/logo-footer.svg";
@@ -61,7 +61,12 @@ function Navbar() {
         }`}
       >
         <Link to="/">
-          <img src={Logo} alt="logo_img" onClick={goTop} className="w-full h-auto" />
+          <img
+            src={Logo}
+            alt="logo_img"
+            onClick={goTop}
+            className="w-[50%] h-auto"
+          />
         </Link>
         <div className="navlist-nav">
           <NavList />
@@ -178,21 +183,46 @@ function Navbar() {
                 <div className="flex flex-col gap-[24px]">
                   <h3 className="text-[20px] font-bold">About Us</h3>
                   <p className="text-[16px] font-medium text-[#000000b1]">
-                    Find out who we are and what makes us unique. We are a community-driven gym committed to
-                    providing personalized fitness experiences for all levels of fitness enthusiasts in a
-                    welcoming and supportive environment.
+                    Find out who we are and what makes us unique. We are a
+                    community-driven gym committed to providing personalized
+                    fitness experiences for all levels of fitness enthusiasts in
+                    a welcoming and supportive environment.
                   </p>
                 </div>
                 {/* gallery */}
                 <div className="flex flex-col gap-[24px]">
                   <h3 className="text-[20px] font-bold">Gallery</h3>
                   <div className="grid grid-cols-3 grid-rows-2 gap-4">
-                    <img src={SideImg1} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
-                    <img src={SideImg2} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
-                    <img src={SideImg3} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
-                    <img src={SideImg4} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
-                    <img src={SideImg5} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
-                    <img src={SideImg6} alt="sidebar_gallery" className="rounded-xl cursor-pointer " />
+                    <img
+                      src={SideImg1}
+                      alt="sidebar_gallery"
+                      className="rounded-xl cursor-pointer "
+                    />
+                    <img
+                      src={SideImg2}
+                      alt="sidebar_gallery"
+                      className="rounded-xl cursor-pointer "
+                    />
+                    <img
+                      src={SideImg3}
+                      alt="sidebar_gallery"
+                      className="rounded-xl cursor-pointer "
+                    />
+                    <img
+                      src={SideImg4}
+                      alt="sidebar_gallery"
+                      className="rounded-xl cursor-pointer "
+                    />
+                    <img
+                      src={SideImg5}
+                      alt="sidebar_gallery"
+                      className="rounded-xl cursor-pointer "
+                    />
+                    <img
+                      src={SideImg6}
+                      alt="sidebar_gallery"
+                      className="rounded-xl cursor-pointer "
+                    />
                   </div>
                 </div>
                 {/* contact */}
@@ -203,7 +233,8 @@ function Navbar() {
                     &nbsp; 59 Street, House Newyork City
                   </p>
                   <p className="text-[16px] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-phone text-[#ff0336]"></i>&nbsp; +123-678800090
+                    <i className="fa-solid fa-phone text-[#ff0336]"></i>&nbsp;
+                    +123-678800090
                   </p>
                   <p className="text-[16px] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
                     <i className="fa-solid fa-envelope text-[#ff0336]"></i>
@@ -265,7 +296,7 @@ function Navbar() {
                 }`}
               ></i>
               <h3 className="text-white text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
-                join class now
+                اشــترك الآن{" "}
               </h3>
             </Link>
           </div>

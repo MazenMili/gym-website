@@ -10,10 +10,17 @@ import MainButton from "../MainButton";
 function ChooseUs() {
   return (
     <>
-      <section className="choose-section py-[120px] ">
+      <section
+        className="choose-section py-[120px] "
+        style={{ direction: "rtl", textAlign: "right" }}
+      >
         <div className="container page-padding flex flex-row md1000:flex-col md1000:items-center gap-[70px]">
           <div className="video-div relative w-[50%] md1000:w-[85%] md1000:flex md1000:justify-center">
-            <img src={VideoImg} alt="video_img" className="relative w-[94%] h-auto" />
+            <img
+              src={VideoImg}
+              alt="video_img"
+              className="relative w-[94%] h-auto"
+            />
             <img
               src={PlayImg}
               alt="play_img"
@@ -23,19 +30,21 @@ function ChooseUs() {
           </div>
 
           <div className="relative w-[50%] md1000:flex md1000:flex-col md1000:items-center md1000:text-center md1000:w-[85%]">
-            <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-14">why choose us</p>
+            {/* <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-14">
+              why choose us
+            </p>
             <img
               src={TitleRed}
               alt="text_bg"
               className="w-[220px] absolute -top-[6px] -left-14 md1000:hidden "
-            />
+            /> */}
             <h2 className=" text-[36px] text-white font-bold leading-[1.2] max-w-3xl md1000:max-w-[80%]">
-              We Can Give A Shape Of Your Body Here!
+              أقـدر أعطيــك أفضـل نتيجة لجسمـك !
             </h2>
             <p className="text-[16.5px] text-[#b4b4b4] mt-7 max-w-3xl md1000:max-w-[80%]">
-              At <b>Gymate</b>, we are dedicated to helping you achieve the body of your dreams. Our expert
-              trainers and nutritionists will work with you to create a personalized fitness and nutrition
-              plan that helps you reach your specific goals.
+              <b>كمدربـة شخصية</b> أنا ملتزمـة بمساعدتك في تحقيق هدفك اللي تحلم
+              فيه، عن طـريق الرياضة والتغذيـة الصحيحة والمتابعة الدائمـة بتوفيـر
+              خـطة شخصية واضحـة ومحددة
             </p>
 
             <div className="grid grid-cols-2 grid-rows-2 gap-14 max-w-[440px] mt-14 min450:flex min450:flex-col">
@@ -45,7 +54,9 @@ function ChooseUs() {
                   src={TrainingIcon}
                   alt="icon"
                 />
-                <p className="text-white font-bold text-[18px] max-w-[150px]">Free Fitness Training</p>
+                <p className="text-white font-bold text-[18px] max-w-[150px]">
+                  تدريـب شخصـي مميز
+                </p>
               </div>
 
               <div className="flex items-center gap-6">
@@ -54,7 +65,9 @@ function ChooseUs() {
                   src={EquipmentsIcon}
                   alt="icon"
                 />
-                <p className="text-white font-bold text-[18px] max-w-[150px]">Modern Gym Equipments</p>
+                <p className="text-white font-bold text-[18px] max-w-[150px]">
+                  Modern Gym Equipments
+                </p>
               </div>
 
               <div className="flex items-center gap-6">
@@ -63,7 +76,9 @@ function ChooseUs() {
                   src={BagIcon}
                   alt="icon"
                 />
-                <p className="text-white font-bold text-[18px] max-w-[150px]">Gym Bag Equipments</p>
+                <p className="text-white font-bold text-[18px] max-w-[150px]">
+                  Gym Bag Equipments
+                </p>
               </div>
 
               <div className="flex items-center gap-6">
@@ -72,7 +87,9 @@ function ChooseUs() {
                   src={BottleIcon}
                   alt="icon"
                 />
-                <p className="text-white font-bold text-[18px] max-w-[150px]">Fresh Bottle Watter</p>
+                <p className="text-white font-bold text-[18px] max-w-[150px]">
+                  Fresh Bottle Watter
+                </p>
               </div>
               <MainButton
                 color={`!text-white`}
